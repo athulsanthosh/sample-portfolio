@@ -1,0 +1,36 @@
+CSS grid system
+---------------
+
+columns and rows
+display : grid
+grid-template-column - column
+grid-template-rows - rows
+column-gap - to create gap btwn columns
+row-gap - to create gap btwn rows
+gap - to create same gap fro row and columns
+rem - unit related to font size of the root element
+text-align: justify - to justify text
+linear-gradient - inorder to create color combinations
+    background-image: linear-gradiet(to direction, color 1 ....,color n)
+
+CSS Animations
+--------------
+syntax
+    selector{
+        animation: A-name, time;
+    }
+
+define animation
+@keyframes A-name{
+    0%{
+        property:value;
+    }
+    .
+    .
+    .
+    100%{
+        property:value;
+    }
+}
+
+group selector - 

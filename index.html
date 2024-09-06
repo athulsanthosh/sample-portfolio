@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- css file -->
+     <link rel="stylesheet" href="./style.css">
+
+     <!-- Fav icon -->
+     <link rel="icon" href="./Images/portfolio-icon.png">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- main div -->
+
+    <div id="container">
+      <!-- Header -->
+      <nav id="navbar">
+        <img id="logo" src="./Images/profile.png" alt="No image">
+        <ul>
+
+            <li class="listitem"><a href="#container">HOME</a></li>
+            <li class="listitem"><a href="#about">ABOUT</a></li>
+            <li class="listitem"><a href="#skill">SKILL</a></li>
+            <li class="listitem"><a href="#contact">CONTACT</a></li>
+
+        </ul>
+      </nav>
+
+      <!-- home section -->
+      <section id="home">
+        <div id="title">
+          <h1>I'm Ana <span id="lastname">Steel</span></h1>
+          <p>This is my official Portfolio website to describe all <br>
+          Details and work experience in web Development. </p>
+          <br><a id="download" href="./files/recipt.pdf" download>DOWNLOAD CV</a>
+        </div>
+        <div id="image">
+          <img  id="shape" class="imageGroup" src="./Images/avatarBg.png" alt="no image">
+          <img id="girl" class="imageGroup" src="./Images/avatar.png" alt="no image">
+        </div>
+      </section>
+
+      <!-- About me section -->
+       <section id="about">
+        <div class="heading">
+          <h1>About Me</h1>
+          <p id="intro">Introduction</p>
+        </div>
+        <div id="aboutContent">
+          <div id="aboutImage">
+            <img src="./Images/group.png" alt="">
+          </div>
+          <div id="details">
+            <div id="description">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tempore dolor amet eum dicta distinctio mollitia aut! Inventore asperiores quasi excepturi, deleniti, at neque repellendus culpa aliquam totam blanditiis eveniet?
+              </p>  
+              </div>
+          
+          <div id="infoBox">
+                <div class="info">
+                  <i class="fa-solid fa-user"></i>
+                  <span>Ana Steel</span>
+                </div>
+                <div class="info">
+                  <i class="fa-solid fa-phone"></i>
+                  <span>+91 45964 68456</span>
+                </div>
+                <div class="info">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>anasteel@email.com</span>
+                </div>
+                <div class="info">
+                  <i class="fa-brands fa-github"></i>
+                  <span>anasteel</span>
+                </div>
+            </div>
+          </div>
+        </div>
+       </section>
+
+       <!-- Skills Section -->
+        <section id="skill">
+          <div class="heading">
+            <h1>Skills</h1>
+            <p>My Skills</p>
+          </div>
+          <div id="skill-container">
+            <div id="base-container">
+              <div class="skillDiv">
+                <h3>HTML</h3>
+                <span>95%</span>
+                <div class="progressBar"></div>
+                <div class="progressBar"id="htmlSkill"></div>
+              </div>
+              <div class="skillDiv">
+                <h3>CSS</h3>
+                <span>88%</span>
+                <div class="progressBar"></div>
+                <div class="progressBar"id="cssSkill"></div>
+              </div>
+              <div class="skillDiv">
+                <h3>JS</h3>
+                <span>89%</span>
+                <div class="progressBar"></div>
+                <div class="progressBar"id="jsSkill"></div>
+              </div>
+              <div class="skillDiv">
+                <h3>REACT</h3>
+                <span>85%</span>
+                <div class="progressBar"></div>
+                <div class="progressBar"id="rSkill"></div>
+              </div>
+            </div>
+            <div id="skillImage">
+              <img src="./Images/working.png" alt="">
+            </div>
+          </div>
+        </section>
+
+        <!-- Contacts Section -->
+         <section id="contact">
+          <div class="heading">
+            <h1>Contacts</h1>
+            <p>My Contacts</p>
+          </div>
+          <div id="contact-icons">
+            <div class="icons">
+              <a href="" target="_blank">
+                <i class="fa-brands fa-linkedin-in fa-2x"></i>
+              </a>
+            </div>
+            <div class="icons">
+              <a href="" target="_blank">
+                <i class="fa-brands fa-github fa-2x"></i>
+              </a>
+            </div>
+            <div class="icons">
+              <a href="" target="_blank">
+                <i class="fa-brands fa-x-twitter fa-2x"></i>
+              </a>
+            </div>
+            <div class="icons">
+              <a href="https://wa.me/8921927196" target="_blank">
+                <i class="fa-brands fa-whatsapp fa-2x"></i>
+              </a>
+            </div>
+            <div class="icons">
+              <a href="" target="_blank">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+              </a>
+            </div>
+            <div class="icons">
+              <a href="" target="_blank">
+                <i class="fa-brands fa-facebook-f fa-2x"></i>
+              </a>
+            </div>
+          </div>
+         </section>
+
+         <!-- Footer -->
+         <footer>
+          <p>
+            © My Portfolio Design 2023, All Rights Reserved ® Ana Steel
+          </p>
+          <div id="up-arrow">
+            <a href="#container">
+              <i class="fa-solid fa-arrow-right fa-rotate-270 fa-2x"></i>
+            </a>
+          </div>
+         </footer>
+          
+
+    </div>
+
+</body>
+</html>

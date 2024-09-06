@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+#container{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    
+}
+#navbar{
+    display: flex;
+    width: 85%;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#logo{
+    width: 130px;
+}
+.listitem{
+    display: inline-block;
+    margin: 10px 35px;
+}
+.listitem a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 1000;
+}
+.listitem a:hover{
+    color: red;
+}
+#title{
+    margin-top: 13%;
+    margin-left: 8%;
+    
+}
+#title h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#lastname{
+    color: orange;
+}
+
+#title p{
+    margin-bottom: 30px;
+}
+#download{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#image{
+    width: 45%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 85%;
+
+}
+.imageGroup{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 2s , left 2s;
+}
+
+#image:hover #shape{
+    bottom: 70px;
+}
+
+#image:hover #girl{
+    left: 40%;
+}
+
+i{
+    font-size: small;   
+}
+
+#about{
+    margin: 20% 8% 0% 8%;
+    
+}
+
+.heading{
+    text-align: center;
+    margin: 15% 8% 0% 8%;
+}
+
+.heading h1{
+    font-size: 30px;
+}
+
+.heading p{
+    color: green;
+    font-size: 20px;
+    top: 5px;
+}
+
+#aboutContent{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    column-gap: 4rem;
+    margin-top: 40px;
+}
+
+#aboutImage img{
+    width: 80%;
+}
+
+#aboutContent p{
+    font-size: 20px;
+    text-align: justify;
+}
+.info{
+    margin: 1rem;
+}
+
+#infoBox{
+    margin: 1rem;
+}
+
+.info span{
+    margin-left: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#skill{
+    margin: 8% 8% 0 8%;
+}
+
+#skill-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+}
+
+#skillImage{
+    width: 90%;
+}
+
+.skillDiv{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 2rem 0  0 2rem;
+    padding-top: 20px;
+}
+
+.progressBar{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -15px; 
+}
+
+.skillDiv span{
+    font-weight: bold;
+}
+
+#htmlSkill{
+    background-color: orange;
+    width: 95%;
+}
+
+#cssSkill{
+    background-color: orange;
+    width: 88%;
+}
+
+#jsSkill{
+    background-color: orange;
+    width: 88%;
+}
+
+#rSkill{
+    background-color: orange;
+    width: 85%;
+}
+
+#contact-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.icons, #up-arrow{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 10px 20px;
+}
+
+.icons:hover, #up-arrow{
+    background-image: linear-gradient(to top left,rgb(202, 131, 0) , rgb(188, 188, 24));
+
+}
+
+.icons a{
+    color: black;
+}
+
+.icons:hover a{
+    color:white
+}
+
+.icons:hover i{
+    animation: shake 0.75s;
+} 
+@keyframes shake {
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+#up-arrow{
+    float: right;
+}
+
+#up-arrow a{
+    color: black;
+}
+
+#up-arrow:hover a{
+    color:white
+}
+footer p{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
